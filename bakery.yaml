@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [Chivo-Regular.ttf.ttx, Chivo-Italic.ttf.ttx, Chivo-BlackItalic.ttf.ttx,
+  Chivo-Black.ttf.ttx, src/Chivo-Regular-VTT.ttf.ttx, src/Chivo-Italic.otf.ttx, src/Chivo-BlackItalic.otf.ttx,
+  src/Chivo-Black-VTT.ttf.ttx, src/Chivo-Italic-TTF.sfd, src/Chivo-BlackItalic-TTF.sfd,
+  src/Chivo-Black-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

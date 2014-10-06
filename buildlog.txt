@@ -1,0 +1,1145 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/chivo/METADATA.json /home/travis/build/fontdirectory/chivo/builds/build
+$ cp -a /home/travis/build/fontdirectory/chivo/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/chivo/builds/build
+$ cp -a /home/travis/build/fontdirectory/chivo/FONTLOG.txt /home/travis/build/fontdirectory/chivo/builds/build
+$ cp -a Chivo-Regular.ttf.ttx Chivo-Italic.ttf.ttx Chivo-BlackItalic.ttf.ttx Chivo-Black.ttf.ttx src/Chivo-Regular-VTT.ttf.ttx src/Chivo-Italic.otf.ttx src/Chivo-BlackItalic.otf.ttx src/Chivo-Black-VTT.ttf.ttx src/Chivo-Italic-TTF.sfd src/Chivo-BlackItalic-TTF.sfd src/Chivo-Black-TTF.sfd Chivo-Regular.ttf._p_r_e_p.ttx Chivo-Regular.ttf._p_o_s_t.ttx Chivo-Regular.ttf._n_a_m_e.ttx Chivo-Regular.ttf._m_a_x_p.ttx Chivo-Regular.ttf._l_o_c_a.ttx Chivo-Regular.ttf._h_m_t_x.ttx Chivo-Regular.ttf._h_h_e_a.ttx Chivo-Regular.ttf._h_e_a_d.ttx Chivo-Regular.ttf._g_l_y_f.ttx Chivo-Regular.ttf._g_a_s_p.ttx Chivo-Regular.ttf._c_m_a_p.ttx Chivo-Regular.ttf.O_S_2f_2.ttx Chivo-Regular.ttf.GlyphOrder.ttx Chivo-Regular.ttf.G_S_U_B_.ttx Chivo-Regular.ttf.G_P_O_S_.ttx Chivo-Regular.ttf.G_D_E_F_.ttx Chivo-Regular.ttf.F_F_T_M_.ttx Chivo-Regular.ttf.D_S_I_G_.ttx Chivo-Italic.ttf._p_r_e_p.ttx Chivo-Italic.ttf._p_o_s_t.ttx Chivo-Italic.ttf._n_a_m_e.ttx Chivo-Italic.ttf._m_a_x_p.ttx Chivo-Italic.ttf._l_o_c_a.ttx Chivo-Italic.ttf._h_m_t_x.ttx Chivo-Italic.ttf._h_h_e_a.ttx Chivo-Italic.ttf._h_e_a_d.ttx Chivo-Italic.ttf._g_l_y_f.ttx Chivo-Italic.ttf._g_a_s_p.ttx Chivo-Italic.ttf._c_m_a_p.ttx Chivo-Italic.ttf.O_S_2f_2.ttx Chivo-Italic.ttf.GlyphOrder.ttx Chivo-Italic.ttf.G_S_U_B_.ttx Chivo-Italic.ttf.G_P_O_S_.ttx Chivo-Italic.ttf.G_D_E_F_.ttx Chivo-Italic.ttf.F_F_T_M_.ttx Chivo-Italic.ttf.D_S_I_G_.ttx Chivo-BlackItalic.ttf._p_r_e_p.ttx Chivo-BlackItalic.ttf._p_o_s_t.ttx Chivo-BlackItalic.ttf._n_a_m_e.ttx Chivo-BlackItalic.ttf._m_a_x_p.ttx Chivo-BlackItalic.ttf._l_o_c_a.ttx Chivo-BlackItalic.ttf._h_m_t_x.ttx Chivo-BlackItalic.ttf._h_h_e_a.ttx Chivo-BlackItalic.ttf._h_e_a_d.ttx Chivo-BlackItalic.ttf._g_l_y_f.ttx Chivo-BlackItalic.ttf._g_a_s_p.ttx Chivo-BlackItalic.ttf._c_m_a_p.ttx Chivo-BlackItalic.ttf.O_S_2f_2.ttx Chivo-BlackItalic.ttf.GlyphOrder.ttx Chivo-BlackItalic.ttf.G_S_U_B_.ttx Chivo-BlackItalic.ttf.G_P_O_S_.ttx Chivo-BlackItalic.ttf.G_D_E_F_.ttx Chivo-BlackItalic.ttf.F_F_T_M_.ttx Chivo-BlackItalic.ttf.D_S_I_G_.ttx Chivo-Black.ttf._p_r_e_p.ttx Chivo-Black.ttf._p_o_s_t.ttx Chivo-Black.ttf._n_a_m_e.ttx Chivo-Black.ttf._m_a_x_p.ttx Chivo-Black.ttf._l_o_c_a.ttx Chivo-Black.ttf._h_m_t_x.ttx Chivo-Black.ttf._h_h_e_a.ttx Chivo-Black.ttf._h_e_a_d.ttx Chivo-Black.ttf._g_l_y_f.ttx Chivo-Black.ttf._g_a_s_p.ttx Chivo-Black.ttf._c_m_a_p.ttx Chivo-Black.ttf.O_S_2f_2.ttx Chivo-Black.ttf.GlyphOrder.ttx Chivo-Black.ttf.G_S_U_B_.ttx Chivo-Black.ttf.G_P_O_S_.ttx Chivo-Black.ttf.G_D_E_F_.ttx Chivo-Black.ttf.F_F_T_M_.ttx Chivo-Black.ttf.D_S_I_G_.ttx src/Chivo-Regular-VTT.ttf._p_r_e_p.ttx src/Chivo-Regular-VTT.ttf._p_o_s_t.ttx src/Chivo-Regular-VTT.ttf._n_a_m_e.ttx src/Chivo-Regular-VTT.ttf._m_a_x_p.ttx src/Chivo-Regular-VTT.ttf._l_o_c_a.ttx src/Chivo-Regular-VTT.ttf._h_m_t_x.ttx src/Chivo-Regular-VTT.ttf._h_h_e_a.ttx src/Chivo-Regular-VTT.ttf._h_e_a_d.ttx src/Chivo-Regular-VTT.ttf._g_l_y_f.ttx src/Chivo-Regular-VTT.ttf._g_a_s_p.ttx src/Chivo-Regular-VTT.ttf._c_m_a_p.ttx src/Chivo-Regular-VTT.ttf.T_S_I__5.ttx src/Chivo-Regular-VTT.ttf.T_S_I__3.ttx src/Chivo-Regular-VTT.ttf.T_S_I__2.ttx src/Chivo-Regular-VTT.ttf.T_S_I__1.ttx src/Chivo-Regular-VTT.ttf.T_S_I__0.ttx src/Chivo-Regular-VTT.ttf.O_S_2f_2.ttx src/Chivo-Regular-VTT.ttf.GlyphOrder.ttx src/Chivo-Regular-VTT.ttf.G_S_U_B_.ttx src/Chivo-Regular-VTT.ttf.G_P_O_S_.ttx src/Chivo-Regular-VTT.ttf.G_D_E_F_.ttx src/Chivo-Regular-VTT.ttf.F_F_T_M_.ttx src/Chivo-Regular-VTT.ttf.D_S_I_G_.ttx src/Chivo-Italic.otf._p_o_s_t.ttx src/Chivo-Italic.otf._n_a_m_e.ttx src/Chivo-Italic.otf._m_a_x_p.ttx src/Chivo-Italic.otf._k_e_r_n.ttx src/Chivo-Italic.otf._h_m_t_x.ttx src/Chivo-Italic.otf._h_h_e_a.ttx src/Chivo-Italic.otf._h_e_a_d.ttx src/Chivo-Italic.otf._c_m_a_p.ttx src/Chivo-Italic.otf.O_S_2f_2.ttx src/Chivo-Italic.otf.GlyphOrder.ttx src/Chivo-Italic.otf.C_F_F_.ttx src/Chivo-BlackItalic.otf._p_o_s_t.ttx src/Chivo-BlackItalic.otf._n_a_m_e.ttx src/Chivo-BlackItalic.otf._m_a_x_p.ttx src/Chivo-BlackItalic.otf._k_e_r_n.ttx src/Chivo-BlackItalic.otf._h_m_t_x.ttx src/Chivo-BlackItalic.otf._h_h_e_a.ttx src/Chivo-BlackItalic.otf._h_e_a_d.ttx src/Chivo-BlackItalic.otf._c_m_a_p.ttx src/Chivo-BlackItalic.otf.O_S_2f_2.ttx src/Chivo-BlackItalic.otf.GlyphOrder.ttx src/Chivo-BlackItalic.otf.C_F_F_.ttx src/Chivo-Black-VTT.ttf._p_r_e_p.ttx src/Chivo-Black-VTT.ttf._p_o_s_t.ttx src/Chivo-Black-VTT.ttf._n_a_m_e.ttx src/Chivo-Black-VTT.ttf._m_a_x_p.ttx src/Chivo-Black-VTT.ttf._l_o_c_a.ttx src/Chivo-Black-VTT.ttf._h_m_t_x.ttx src/Chivo-Black-VTT.ttf._h_h_e_a.ttx src/Chivo-Black-VTT.ttf._h_e_a_d.ttx src/Chivo-Black-VTT.ttf._g_l_y_f.ttx src/Chivo-Black-VTT.ttf._g_a_s_p.ttx src/Chivo-Black-VTT.ttf._c_m_a_p.ttx src/Chivo-Black-VTT.ttf.T_S_I__5.ttx src/Chivo-Black-VTT.ttf.T_S_I__3.ttx src/Chivo-Black-VTT.ttf.T_S_I__2.ttx src/Chivo-Black-VTT.ttf.T_S_I__1.ttx src/Chivo-Black-VTT.ttf.T_S_I__0.ttx src/Chivo-Black-VTT.ttf.O_S_2f_2.ttx src/Chivo-Black-VTT.ttf.GlyphOrder.ttx src/Chivo-Black-VTT.ttf.G_S_U_B_.ttx src/Chivo-Black-VTT.ttf.G_P_O_S_.ttx src/Chivo-Black-VTT.ttf.G_D_E_F_.ttx src/Chivo-Black-VTT.ttf.F_F_T_M_.ttx src/Chivo-Black-VTT.ttf.D_S_I_G_.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black-VTT.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.otf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.otf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular-VTT.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black-TTF.sfd /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic-TTF.sfd /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic-TTF.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx Chivo-Black-VTT.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black-VTT.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Chivo-BlackItalic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.otf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Chivo-Italic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.otf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Chivo-Regular-VTT.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular-VTT.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Chivo-Black.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Chivo-BlackItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Chivo-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Chivo-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular.ttf.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream Chivo-Black-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Chivo-BlackItalic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Chivo-Italic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/chivo/builds/build /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.ttx /home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black.ttx
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic-TTF.sfd
+Compiling "/home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Regular.ttx" to "/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Italic.ttx" to "/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-BlackItalic.ttx" to "/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/chivo/builds/build/sources/Chivo-Black.ttx" to "/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+### Test Chivo-Regular.ttf
+$ fontbakery-check.py result Chivo-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Descriptor string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+Parameter              Chivo-Regular.ttf    Chivo-Black.ttf    Chivo-BlackItalic.ttf    Chivo-Italic.ttf    
+ymax                   926                  937                937                      922                 
+hhea.ascent            937                  937                937                      937                 
+OS/2.sTypoAscender     937                  937                937                      937                 
+OS/2.usWinAscent       937                  937                937                      937                 
+ymin                   -250                 -250               -250                     -250                
+hhea.descent           -250                 -250               -250                     -250                
+OS/2.sTypoDescender    -250                 -250               -250                     -250                
+OS/2.usWinDescent      250                  250                250                      250                 
+hhea.lineGap           0                    0                  0                        0                   
+OS/2.sTypoLineGap      0                    0                  0                        0                   
+hhea total             1187                 1187               1187                     1187                
+typo total             1187                 1187               1187                     1187                
+win total              1187                 1187               1187                     1187                
+UPM:Heights            1000:1176            1000:1187          1000:1187                1000:1172           
+UPM:Heights %          117 %                118 %              118 %                    117 %               
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Chivo-Regular.ttf
+$ ls -l 'Chivo-Regular.ttf'* # look at the size savings of that subset process
+Chivo-Regular.ttf.opt: 49164 bytes
+Chivo-Regular.ttf: 50892 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.opt /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+### Autohint TTFs (ttfautohint) Chivo-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf '/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf: 49164 bytes
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.autohint.ttf: 54248 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.autohint.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+### Subset TTFs (pyftsubset) Chivo-Regular.ttf
+$ pyftsubset Chivo-Regular.latin
+$ pyftsubset Chivo-Regular.menu
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+### Test Chivo-Italic.ttf
+$ fontbakery-check.py result Chivo-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Descriptor string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Chivo-Italic.ttf
+$ ls -l 'Chivo-Italic.ttf'* # look at the size savings of that subset process
+Chivo-Italic.ttf.opt: 29120 bytes
+Chivo-Italic.ttf: 30996 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.opt /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+### Autohint TTFs (ttfautohint) Chivo-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf '/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf: 29120 bytes
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.autohint.ttf: 45300 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.autohint.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+### Subset TTFs (pyftsubset) Chivo-Italic.ttf
+$ pyftsubset Chivo-Italic.latin
+$ pyftsubset Chivo-Italic.menu
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+### Test Chivo-BlackItalic.ttf
+$ fontbakery-check.py result Chivo-BlackItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Descriptor string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Chivo-BlackItalic.ttf
+$ ls -l 'Chivo-BlackItalic.ttf'* # look at the size savings of that subset process
+Chivo-BlackItalic.ttf.opt: 30556 bytes
+Chivo-BlackItalic.ttf: 32456 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.opt /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+### Autohint TTFs (ttfautohint) Chivo-BlackItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf '/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf: 30556 bytes
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.autohint.ttf: 49652 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.autohint.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+### Subset TTFs (pyftsubset) Chivo-BlackItalic.ttf
+$ pyftsubset Chivo-BlackItalic.latin
+$ pyftsubset Chivo-BlackItalic.menu
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+### Test Chivo-Black.ttf
+$ fontbakery-check.py result Chivo-Black.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Descriptor string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Chivo-Black.ttf
+$ ls -l 'Chivo-Black.ttf'* # look at the size savings of that subset process
+Chivo-Black.ttf.opt: 45948 bytes
+Chivo-Black.ttf: 48212 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.opt /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+### Autohint TTFs (ttfautohint) Chivo-Black.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf '/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf: 45948 bytes
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.autohint.ttf: 57484 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.autohint.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+### Subset TTFs (pyftsubset) Chivo-Black.ttf
+$ pyftsubset Chivo-Black.latin
+$ pyftsubset Chivo-Black.menu
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ fontbakery-build-font2ttf.py sources/Chivo-Black-TTF.sfd Chivo-Black-TTF.ttf
+Internal Error: Invalid 2nd order spline in SplineRefigure2
+Internal Error: Invalid 2nd order spline in SplineRefigure2
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf)
+### Test Chivo-Black-TTF.ttf
+$ fontbakery-check.py result Chivo-Black-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Descriptor string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Regular.ttf
+Parameter              Chivo-Black-TTF.ttf    Chivo-Black.ttf    Chivo-BlackItalic.ttf    Chivo-Italic.ttf    Chivo-Regular.ttf    
+ymax                   937                    937                937                      922                 926                  
+hhea.ascent            937                    937                937                      937                 937                  
+OS/2.sTypoAscender     937                    937                937                      937                 937                  
+OS/2.usWinAscent       937                    937                937                      937                 937                  
+ymin                   -250                   -250               -250                     -250                -250                 
+hhea.descent           -250                   -250               -250                     -250                -250                 
+OS/2.sTypoDescender    -250                   -250               -250                     -250                -250                 
+OS/2.usWinDescent      250                    250                250                      250                 250                  
+hhea.lineGap           0                      0                  0                        0                   0                    
+OS/2.sTypoLineGap      0                      0                  0                        0                   0                    
+hhea total             1187                   1187               1187                     1187                1187                 
+typo total             1187                   1187               1187                     1187                1187                 
+win total              1187                   1187               1187                     1187                1187                 
+UPM:Heights            1000:1187              1000:1187          1000:1187                1000:1172           1000:1176            
+UPM:Heights %          118 %                  118 %              118 %                    117 %               117 %                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Chivo-Black-TTF.ttf
+$ ls -l 'Chivo-Black-TTF.ttf'* # look at the size savings of that subset process
+Chivo-Black-TTF.ttf.opt: 36452 bytes
+Chivo-Black-TTF.ttf: 46672 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf.opt /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+### Autohint TTFs (ttfautohint) Chivo-Black-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf '/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf: 36452 bytes
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.autohint.ttf: 56400 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.autohint.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+### Subset TTFs (pyftsubset) Chivo-Black-TTF.ttf
+$ pyftsubset Chivo-Black-TTF.latin
+$ pyftsubset Chivo-Black-TTF.menu
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Black-TTF.ttf
+$ fontbakery-build-font2ttf.py sources/Chivo-BlackItalic-TTF.sfd Chivo-BlackItalic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf)
+### Test Chivo-BlackItalic-TTF.ttf
+$ fontbakery-check.py result Chivo-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Descriptor string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Chivo-BlackItalic-TTF.ttf
+$ ls -l 'Chivo-BlackItalic-TTF.ttf'* # look at the size savings of that subset process
+Chivo-BlackItalic-TTF.ttf.opt: 30236 bytes
+Chivo-BlackItalic-TTF.ttf: 32364 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf.opt /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+### Autohint TTFs (ttfautohint) Chivo-BlackItalic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf '/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf: 30236 bytes
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.autohint.ttf: 49496 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.autohint.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+### Subset TTFs (pyftsubset) Chivo-BlackItalic-TTF.ttf
+$ pyftsubset Chivo-BlackItalic-TTF.latin
+$ pyftsubset Chivo-BlackItalic-TTF.menu
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/Chivo-BlackItalic-TTF.ttf
+$ fontbakery-build-font2ttf.py sources/Chivo-Italic-TTF.sfd Chivo-Italic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf)
+### Test Chivo-Italic-TTF.ttf
+$ fontbakery-check.py result Chivo-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Descriptor string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Chivo-Italic-TTF.ttf
+$ ls -l 'Chivo-Italic-TTF.ttf'* # look at the size savings of that subset process
+Chivo-Italic-TTF.ttf.opt: 29148 bytes
+Chivo-Italic-TTF.ttf: 31284 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf.opt /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+### Autohint TTFs (ttfautohint) Chivo-Italic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf '/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf: 29148 bytes
+/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.autohint.ttf: 45908 bytes
+$ mv /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.autohint.ttf /home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+### Subset TTFs (pyftsubset) Chivo-Italic-TTF.ttf
+$ pyftsubset Chivo-Italic-TTF.latin
+$ pyftsubset Chivo-Italic-TTF.menu
+strippedname:/home/travis/build/fontdirectory/chivo/builds/build/Chivo-Italic-TTF.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/chivo/builds/build
+{} exists
+Designer's name from font is: Hector Gatti
+Original size: 54248\nGzip size: 27795
+Family Name: Chivo
+PS Name: Chivo-Italic
+Full Name: Chivo-Italic
+Style: italic
+Weight: 400
+Filename: Chivo-Italic-TTF.ttf
+Copyright: Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name "Chivo".
+Family Name: Chivo
+PS Name: Chivo-BlackItalic
+Full Name: Chivo-BlackItalic
+Style: italic
+Weight: 900
+Filename: Chivo-BlackItalic-TTF.ttf
+Copyright: Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name "Chivo".
+Family Name: Chivo
+PS Name: Chivo-Black
+Full Name: Chivo Black
+Style: normal
+Weight: 900
+Filename: Chivo-Black-TTF.ttf
+Copyright: Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name "Chivo".
+Family Name: Chivo
+PS Name: Chivo-Regular
+Full Name: Chivo
+Style: normal
+Weight: 400
+Filename: Chivo-Regular.ttf
+Copyright: Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name "Chivo".
+Family Name: Chivo
+PS Name: Chivo-Italic
+Full Name: Chivo-Italic
+Style: italic
+Weight: 400
+Filename: Chivo-Italic.ttf
+Copyright: Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name "Chivo".
+Family Name: Chivo
+PS Name: Chivo-BlackItalic
+Full Name: Chivo-BlackItalic
+Style: italic
+Weight: 900
+Filename: Chivo-BlackItalic.ttf
+Copyright: Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name "Chivo".
+Family Name: Chivo
+PS Name: Chivo-Black
+Full Name: Chivo Black
+Style: normal
+Weight: 900
+Filename: Chivo-Black.ttf
+Copyright: Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name "Chivo".
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): OK
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+{
+  "name": "Chivo", 
+  "designer": "Omnibus-Type", 
+  "license": "OFL", 
+  "visibility": "External", 
+  "category": "Sans Serif", 
+  "size": 28146, 
+  "fonts": [
+    {
+      "name": "Chivo", 
+      "postScriptName": "Chivo-Italic", 
+      "fullName": "Chivo-Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "Chivo-Italic-TTF.ttf", 
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name \"Chivo\"."
+    }, 
+    {
+      "name": "Chivo", 
+      "postScriptName": "Chivo-BlackItalic", 
+      "fullName": "Chivo-BlackItalic", 
+      "style": "italic", 
+      "weight": 900, 
+      "filename": "Chivo-BlackItalic-TTF.ttf", 
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name \"Chivo\"."
+    }, 
+    {
+      "name": "Chivo", 
+      "postScriptName": "Chivo-Black", 
+      "fullName": "Chivo Black", 
+      "style": "normal", 
+      "weight": 900, 
+      "filename": "Chivo-Black-TTF.ttf", 
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name \"Chivo\"."
+    }, 
+    {
+      "name": "Chivo", 
+      "postScriptName": "Chivo-Regular", 
+      "fullName": "Chivo", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Chivo-Regular.ttf", 
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name \"Chivo\"."
+    }, 
+    {
+      "name": "Chivo", 
+      "postScriptName": "Chivo-Italic", 
+      "fullName": "Chivo-Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "Chivo-Italic.ttf", 
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name \"Chivo\"."
+    }, 
+    {
+      "name": "Chivo", 
+      "postScriptName": "Chivo-BlackItalic", 
+      "fullName": "Chivo-BlackItalic", 
+      "style": "italic", 
+      "weight": 900, 
+      "filename": "Chivo-BlackItalic.ttf", 
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name \"Chivo\"."
+    }, 
+    {
+      "name": "Chivo", 
+      "postScriptName": "Chivo-Black", 
+      "fullName": "Chivo Black", 
+      "style": "normal", 
+      "weight": 900, 
+      "filename": "Chivo-Black.ttf", 
+      "copyright": "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com), with Reserved Font Name \"Chivo\"."
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2011-12-07"
+}
